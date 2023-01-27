@@ -18,7 +18,7 @@ int GetNumber(string message)
     while (true)
     { 
         Console.WriteLine(message);
-        if (int.TryParse(Console.ReadLine(), out result) && result > 1)
+        if (int.TryParse(Console.ReadLine(), out result) && result >= 1)
         {
             break;
         }
